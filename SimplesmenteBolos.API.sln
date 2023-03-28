@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplesmenteBolos.API", "SimplesmenteBolos.API\SimplesmenteBolos.API.csproj", "{853012D5-9635-41CA-BB13-70D9EE081B1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{853012D5-9635-41CA-BB13-70D9EE081B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853012D5-9635-41CA-BB13-70D9EE081B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853012D5-9635-41CA-BB13-70D9EE081B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853012D5-9635-41CA-BB13-70D9EE081B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0793FAE4-61B0-489A-A5BC-A180C67F1116}
+	EndGlobalSection
+EndGlobal

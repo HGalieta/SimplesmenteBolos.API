@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VSlvEMZFHfcUVoisHNeyIyBG60sa05bK0mqvmcNfEzIggWG4vFGRoV/rDVX8XdOFmYH5QYhJUWwtzeHYnQzj1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hgali\\source\\repos\\SimplesmenteBolos\\SimplesmenteBolos.API\\SimplesmenteBolos.API\\SimplesmenteBolos.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hgali\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\hgali\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\hgali\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\hgali\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\hgali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\hgali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
