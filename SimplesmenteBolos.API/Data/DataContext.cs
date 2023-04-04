@@ -7,6 +7,15 @@ namespace SimplesmenteBolos.API.Data
     public class DataContext : DbContext
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
-        public DbSet<Bolo> Bolos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Pedido>()
+                .HasMany(p => p.ItensPedido)
+                .WithOne(i => i.Pedido);
+        }
+
+        public DbSet<ItemPedido> Itens { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
     }
 }
