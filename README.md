@@ -4,7 +4,7 @@ Projeto desenvolvido por Henrique Galieta (<https://linkedin.com/in/henriquegali
 
 Este projeto consiste em uma API de cadastro de produtos+cliente além do envio de e-mails. Os e-mails são enviados para o cliente no momento de seu registro com a lista de produtos, confirmando seu pedido.
 
-# Abrindo o projeto
+## Abrindo o projeto
 
 Para rodar o projeto abra a solução `SimplesmenteBolos.API.sln` no Visual Studio Comunity 2022.
 
