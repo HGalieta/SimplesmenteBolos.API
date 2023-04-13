@@ -5,7 +5,6 @@ C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\Simplesmente
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\SimplesmenteBolos.API.runtimeconfig.json
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\SimplesmenteBolos.API.dll
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\SimplesmenteBolos.API.pdb
-C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\Humanizer.dll
@@ -86,3 +85,6 @@ C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\Simplesmente
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\obj\Debug\net6.0\SimplesmenteBolos.API.pdb
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\obj\Debug\net6.0\SimplesmenteBolos.API.genruntimeconfig.cache
 C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\obj\Debug\net6.0\ref\SimplesmenteBolos.API.dll
+C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\MailKit.dll
+C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\MimeKit.dll
+C:\Users\hgali\source\repos\SimplesmenteBolos\SimplesmenteBolos.API\SimplesmenteBolos.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
