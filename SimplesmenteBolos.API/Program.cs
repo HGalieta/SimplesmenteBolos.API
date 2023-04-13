@@ -1,3 +1,4 @@
+global using SimplesmenteBolos.API.Services.EmailService;
 using Microsoft.EntityFrameworkCore;
 using SimplesmenteBolos.API.Data;
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddCors(options => options.AddPolicy(name: "PedidoOrigins",
     policy =>
     {

@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SimplesmenteBolos.API.Data;
 using SimplesmenteBolos.API.Models;
 
@@ -10,10 +9,12 @@ namespace SimplesmenteBolos.API.Controllers
     public class PedidoController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IEmailService _emailService;
 
-        public PedidoController(DataContext context)
+        public PedidoController(DataContext context, IEmailService emailService)
         {
             _context = context;
+            _emailService = emailService;
         }
         [HttpGet]
         public IActionResult GetPedidos()
@@ -31,7 +32,7 @@ namespace SimplesmenteBolos.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetPedidoById(int id)
         {
-            Pedido pedido = _context.Pedidos.FirstOrDefault(v => v.Id == id);
+            Pedido pedido = _context.Pedidos.FirstOrDefault(p => p.Id == id);
 
             if (pedido != null)
             {
@@ -46,13 +47,14 @@ namespace SimplesmenteBolos.API.Controllers
         {
             _context.Pedidos.Add(pedido);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(GetPedidoById), new { Id = pedido.Id }, pedido);
+            _emailService.SendEmail(pedido);
+            return Ok();
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeletePedido(int id)
         {
-            Pedido pedido = _context.Pedidos.FirstOrDefault(v => v.Id == id);
+            Pedido pedido = _context.Pedidos.FirstOrDefault(p => p.Id == id);
 
             if (pedido != null)
             {
